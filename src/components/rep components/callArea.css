@@ -5,27 +5,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #B89DC8;
+    background-color: #E0F7FD;
 }
 
 /* incoming call stuff */
-.incoming-call{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .incoming-call-buttons{
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    width: 120%;
 }
 
 .call-info{
     display: flex;
-    width: 125%;
-    background-color: #948FD3;
+    background-color: #B673E4;
     border-radius: 12px;
     color: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -33,7 +28,7 @@
     /* align-content: center; */
     align-items: center;
     margin-top: 25px;
-    padding: 10px 5px;
+    padding: 10px 20px;
     font-size: 20px;
 }
 
@@ -50,23 +45,25 @@
 }
 
 .answer{
-    background-color: #73EBB1;
-    color: black;
+    background-color: #4D8D7C;
+    color: white;
     padding: 8px 13px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .decline{
-    background-color: #EB7373;
-    color: black;
+    background-color: #FF7E59;
+    color: white;
     padding: 8px 13px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .no-margin{

@@ -4,7 +4,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    background-color: #9DBDC8;
+    background-color: #B3ECFB;
     color: black;
     text-align: center;
     height: 100vh;
@@ -17,13 +17,13 @@
 }
 
 .profilePic{
-    height: 250px;
-    width: 250px;
+    
+    width: 45%;
     border-radius: 100%;
 }
 
 .logout-button{
-    background-color: #EB7373;
+    background-color: #B5B5DF;
     border-radius: 12px;
     border: none;
     color: white;
