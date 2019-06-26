@@ -117,12 +117,13 @@ input{
     width: 15vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 20px;
-    
+    background-color: white;
 
 }
 
 .listing-image{
     width: 15vw;
+    max-height: 200px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -132,12 +133,144 @@ input{
 }
 
 .book-button{
-    
-    background-color: #b3ecfb;
+    background-color: #00bef0;
     border-radius: 12px;
     border: none;
     color: white;
     font-size: 15px;
     padding: 10px 15px;
     cursor: pointer;
+}
+
+.three-row{
+    display: flex;
+}
+
+.center-me{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listing-bg{
+    background-color: #e0f7fd;
+}
+
+/* book page */
+.book{
+    height: 92vh;
+    width: 100vw;
+}
+
+.book-container{
+    /* background-color: lightblue; */
+    width: 90vw;
+    /* height: 92vh; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 2em;
+}
+
+.book-info-column{
+    /* background-color: #f3f3f3; */
+    width: 20%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1em;
+}
+
+.book-photo{
+    width: 18vw;
+}
+
+.book-call-button{
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    background-color: #FF5960;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.book-main-column{
+    padding: 1em;
+    /* display: flex; */
+}
+
+.inline{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.flex-row{
+    display: flex;
+}
+/* reviews */
+.reviews{
+    display: inline;
+}
+
+.review-container{
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 25vw;
+    margin: 1em;
+}
+
+.review-text{
+    display: inline;
+    font-size: 15px;
+}
+
+.review-profile-pic{
+    border-radius: 100%;
+    height: 50px;
+    margin-right: 15px;
+}
+
+/* call area */
+.call-area{
+    padding-left: 1em;
+}
+
+.call-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    margin: 1em;   
+}
+
+.call-area-rep{
+    border-radius: 100%;
+    height: 100px;
 }
