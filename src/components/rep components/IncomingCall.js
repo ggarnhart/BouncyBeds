@@ -5,7 +5,7 @@ class IncomingCall extends Component{
         return(
             <div>
                 <div className="call-info">
-                    <img src="https://randomuser.me/api/portraits/lego/5.jpg" className="call-profile" />
+                    <img alt="employee profile" src="https://randomuser.me/api/portraits/lego/5.jpg" className="call-profile" />
                     <div className="call-info-call">
                         <p className="no-margin">call from</p>
                         <h5 className="no-margin">Josh</h5>

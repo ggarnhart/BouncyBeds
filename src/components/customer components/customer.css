@@ -4,7 +4,7 @@ html{
 
 .footer{
     width: 100vw;
-    background-color: #ecedf1;
+    background-color: #E0F7FD;
     height: 8vh;
 }
 
@@ -59,12 +59,13 @@ html{
     background-color: #f8f8fc;
     border-radius: 20px;
     width: 25vw;
-    height: 47vh;
+    /* height: 47vh; */
     margin-left: 5%;
     padding: 10px 25px;
     /* display: inline; */
     opacity: .8;
     margin-top: 7%;
+    padding-bottom: 20px;
 }
 
 input{
@@ -91,6 +92,7 @@ input{
     font-size: 15px;
     padding: 10px 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .call-floater{
@@ -140,10 +142,12 @@ input{
     font-size: 15px;
     padding: 10px 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .three-row{
     display: flex;
+    justify-content: center;
 }
 
 .center-me{
@@ -154,12 +158,14 @@ input{
 
 .listing-bg{
     background-color: #e0f7fd;
+    min-height: 92vh;
 }
 
 /* book page */
 .book{
     height: 92vh;
     width: 100vw;
+    background-color: #E0F7FD;
 }
 
 .book-container{
@@ -193,7 +199,7 @@ input{
     border: none;
     border-radius: 12px;
     padding: 10px 15px;
-    background-color: #FF5960;
+    background-color: #00BEF0;
     color: white;
     font-size: 20px;
     cursor: pointer;

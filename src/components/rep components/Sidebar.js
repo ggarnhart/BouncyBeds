@@ -16,7 +16,7 @@ const Sidebar = (props) => {
         <div>
             <div className="fullHeight sidebar">
                 <h2>{props.companyName}.</h2>
-                <img className="profilePic" src={props.repImage} />
+                <img alt="rep profile" className="profilePic" src={props.repImage} />
                 {/* TODO: add rating */}
                 <h4>Hi, {props.repName}</h4>
                 <br/>

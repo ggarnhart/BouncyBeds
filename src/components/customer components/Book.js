@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Review from './Review';
 import Footer from './Footer';
+import home from "./home2.png";
 
 class Book extends Component{
     render(){
@@ -9,7 +10,7 @@ class Book extends Component{
                 <div className="book">
                     <div className="book-container">
                         <div className="book-info-column">
-                            <img className="book-photo" alt="example home" src="https://a0.muscache.com/im/pictures/e425da2d-c339-453e-98bf-68e197d603f8.jpg?aki_policy=large" />
+                            <img className="book-photo" alt="example home" src={home} />
                             <h2 className="no-margin">Pretty Decent Bouncy Castle</h2>
                             <p className="no-margin lighter">Available for your dates.</p>
                             <p className="no-margin">Neslted in the valleys of Europe, this bouncy castle features at least 4 colors, 1 pump, and hours of fun. 
@@ -38,7 +39,7 @@ class Book extends Component{
                                     <div className="call-card">
                                         <h3>Your Rep:</h3>
                                         <p className="no-margin lighter">Jim</p>
-                                        <img src="https://randomuser.me/api/portraits/lego/1.jpg" className="call-area-rep"/>
+                                        <img alt="profile of employee" src="https://randomuser.me/api/portraits/lego/1.jpg" className="call-area-rep"/>
                                         <br />
                                         <button className="book-call-button">Call to Book</button>
                                     </div>

@@ -16,17 +16,28 @@ const ListingPage = () => {
             price: 8
         },
         {
-            image: "./home3.png",
+            image: "./home8.png",
             title: "Quiet Bouncy Castle Overlooking Calm Lake",
             price: 43
-        }
-    ]
-
-    var listingsTwo = [
+        },
+        {
+            image: "./home7.png",
+            title: "Peak State Bouncy Castle",
+            price: 11000
+        },
         {
             image: "./home4.png",
             title: "Pollination Nation",
             price: 2
+        }
+        
+    ]
+
+    var listingsTwo = [
+        {
+            image: "./home9.png",
+            title: "Lighthouse in stormy conditions Bouncy Castle",
+            price: 90
         },
         {
             image: "./home5.png",
@@ -34,9 +45,19 @@ const ListingPage = () => {
             price: 12
         },
         {
-            image: "./home6.png",
-            title: "Falling Water",
-            price: 19
+            image: "./home10.png",
+            title: "Floating Home Bouncy Castle",
+            price: 93
+        },
+        {
+            image: "./home11.png",
+            title: "Oasis Bouncy Castle",
+            price: 42
+        },
+        {
+            image: "./home12.png",
+            title: "A Stroll Down Memory Lane with a Great Bouncy Castle",
+            price: 93
         }
     ]
 
@@ -74,6 +95,8 @@ const ListingPage = () => {
                     {renderListingsTwo()}
                 </div>
             </div>
+            <br />
+            <br />
             <Footer />
         </div>
     )

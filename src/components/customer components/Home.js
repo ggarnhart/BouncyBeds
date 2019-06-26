@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from './Footer';
 
 class Home extends Component{
     render(){
@@ -25,13 +24,13 @@ class Home extends Component{
                         
                         <label htmlFor="guests">Guests</label>
                         <input type="number" name="guests" placeholder="# of Bouncers" />
-                        <button className="search-button">Search</button>
+                        <a href="/listings" className="search-button">Search</a>
                         
                     </div>
                     <div className="footer-landing">
                         <div className="footer-container-landing">
                         <p className="no-margin">Copyright 2019</p>
-                        <p className="no-margin">Made with ❤️ by Bandwidth</p>
+                        <p className="no-margin">Made with <span role="img" aria-label="heart emoji">❤️</span> by Bandwidth</p>
                         </div>
                     </div>
                 </div>
