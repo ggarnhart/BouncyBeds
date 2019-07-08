@@ -5,13 +5,16 @@ import Employee from './Employee';
 class CallArea extends Component {
     state = { callActive: false, incomingCall: false }
 
+    noActiveOrIncomingCall = () => {
+        this.setState({ callActive: false, incomingCall: false });
+    }
     renderIncomingCall(){
         if(this.state.incomingCall === true){
             // console.log("hi");
             return(
                 <div>
                     <div className="incoming-call-div">
-                        <IncomingCall />
+                        <IncomingCall noActiveOrIncomingCall={this.noActiveOrIncomingCall} />
                     </div>
                     <div className="rep-call-area">
                         

@@ -205,6 +205,17 @@ input{
     cursor: pointer;
 }
 
+.book-hangup-button{
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    background-color: #ff673c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .text-center{
     text-align: center;
 }
@@ -279,4 +290,8 @@ input{
 .call-area-rep{
     border-radius: 100%;
     height: 100px;
+}
+
+.hundred-width{
+    width: 100%;
 }

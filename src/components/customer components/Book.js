@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Review from './Review';
 import Footer from './Footer';
 import home from "./home2.png";
+import CallCard from './CallCard';
 
 class Book extends Component{
     render(){
@@ -17,7 +18,7 @@ class Book extends Component{
                                 Adults of all ages (mostly the younger ones, though) 
                                 will enjoy their time bouncing, sleeping, and maybe eating.</p>
                             <br></br>
-                            <button className="book-call-button">Call to Book</button>
+                            {/* <button className="book-call-button">Call to Book</button> */}
                             <br/>
                         </div>
                         <div className="book-main-column">
@@ -36,13 +37,7 @@ class Book extends Component{
                             
                                 <div className="call-area">
                                     <h2 className=" lighter">Call Center</h2>
-                                    <div className="call-card">
-                                        <h3>Your Rep:</h3>
-                                        <p className="no-margin lighter">Jim</p>
-                                        <img alt="profile of employee" src="https://randomuser.me/api/portraits/lego/1.jpg" className="call-area-rep"/>
-                                        <br />
-                                        <button className="book-call-button">Call to Book</button>
-                                    </div>
+                                    <CallCard />
                                 </div>
                             </div>
 
